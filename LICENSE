@@ -1,0 +1,22 @@
+本教程文档采用 Creative Commons Attribution-ShareAlike 4.0 International
+（CC BY-SA 4.0，署名—相同方式共享）许可。
+
+许可全文：https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-hans
+许可摘要：https://creativecommons.org/licenses/by-sa/4.0/deed.zh
+
+你可以自由地：
+- 共享 —— 在任何媒介以任何形式复制、发行本作品；
+- 演绎 —— 修改、转换或以本作品为基础进行创作。
+
+惟须遵守以下条件：
+- 署名（BY）—— 你必须给出适当的署名，提供指向本许可的链接，并标注是否作了修改。
+  请保留对 OpenMicroDuck（https://github.com/JoyandAI/OpenMicroDuck）
+  与 MicroDuck（Pollen Robotics）的署名与来源链接。
+- 相同方式共享（SA）—— 如果你修改、转换或以本作品为基础进行创作，
+  你必须以与本作品相同的许可分发你的贡献。
+
+------------------------------------------------------------------------
+
+说明：本许可仅适用于本仓库内的「教程与文档」内容。
+相关硬件图纸、PCB、BOM、软件与训练环境的许可以上游项目为准
+（分别为 CERN-OHL-S 与 Apache-2.0）。
