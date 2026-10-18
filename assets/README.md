@@ -12,6 +12,16 @@
 | `leg_servos_hd1910.jpg` | HD1910M 舵机本体与“ID”标签位 | ch03 / ch05 |
 | `ankle_joint_closeup.jpg` | 踝关节与轴承特写 | ch03 踝部 |
 | `foot_tpu_sole.jpg` | 黄色 TPU 脚底 + 踝轴承 | ch03 脚部 |
+| `03_assembled_duck.jpg` | 机械装配完成的整机（蹲姿 + 站姿两视图） | ch03 章首「装完长这样」 |
+
+## 接线图与电控实拍
+
+| 文件名 | 内容 | 用在 |
+| --- | --- | --- |
+| `12_boards_overview.jpg` | 四块板实拍：HAT / RK3566 主控 / IMU_to_DXL / 独立 IMU 模组 | ch12 开头 |
+| `12_wiring_integrated.png` | 整机集成版总线拓扑图（15 舵机 + IMU ID 200 挂同一条总线） | ch12 开头 |
+| `04_wiring_desktop.png` | 桌面调试版接线图（USB 驱动板 + I²C IMU + 两路适配器） | ch04 §1 |
+
 
 ## 还可以补拍 / 替换的图（占位）
 
@@ -29,7 +39,6 @@
 | `05_single_servo.jpg` | 一次只接一个舵机改 ID |
 | `05_center_pose.jpg` | 全部回中位后对称站立 |
 | `06_standing.jpg` | 整机扶着确认站姿 |
-| `07_hat_board.jpg` | HAT 转接板实物 / 打样 |
 | `08_flashing.jpg` | 刷机 / 烧录 TF 卡 |
 
 > 拍照建议：光线均匀、背景干净、关键步骤给特写（接口、针序、轴承、螺丝位）。**请用你自己拍摄 / 制作的图片，不要直接搬运上游项目的图。**
