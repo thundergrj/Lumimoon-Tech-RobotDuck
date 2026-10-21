@@ -12,6 +12,9 @@
 | `leg_servos_hd1910.jpg` | HD1910M 舵机本体与“ID”标签位 | ch03 / ch05 |
 | `ankle_joint_closeup.jpg` | 踝关节与轴承特写 | ch03 踝部 |
 | `foot_tpu_sole.jpg` | 黄色 TPU 脚底 + 踝轴承 | ch03 脚部 |
+| `hat_board_layout.png` | HAT 板正面布局：J13/J14/J11/J3 与 ① 脚、C19 GND 侧 | ch12 §1.3 |
+| `hat_j11_power.png` | NP-F550 电池仓接 J11（① GND / ② +BATT） | ch12 §1.6 |
+| `radxa_zero3w_interfaces.png` | Radxa ZERO 3W 正反面接口标注 | ch08 §0 |
 | `03_assembled_duck.jpg` | 机械装配完成的整机（蹲姿 + 站姿两视图） | ch03 章首「装完长这样」 |
 
 ## 接线图与电控实拍
