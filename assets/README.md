@@ -1,47 +1,18 @@
-# assets 图片目录
+# 教程图片
 
-本目录放教程用到的图片。
+原有整机、单腿、接口和板卡图片保留。新教程按具体结构和 PCB 版本解释，图像存在不表示其适用于所有批次。
 
-## 已包含的实拍图（单腿模组）
-
-| 文件名 | 内容 | 用在 |
-| --- | --- | --- |
-| `leg_front.jpg` | 单腿模组正面 | README 封面、ch03 |
-| `leg_module_full.jpg` | 单腿模组整体（橙色脚壳 + 白色 3P 插头） | ch03 腿部模组 |
-| `leg_back_wiring.jpg` | 腿模组背面、加强板与走线 | ch03 腿部模组 |
-| `leg_servos_hd1910.jpg` | HD1910M 舵机本体与“ID”标签位 | ch03 / ch05 |
-| `ankle_joint_closeup.jpg` | 踝关节与轴承特写 | ch03 踝部 |
-| `foot_tpu_sole.jpg` | 黄色 TPU 脚底 + 踝轴承 | ch03 脚部 |
-| `hat_board_layout.png` | HAT 板正面布局：J13/J14/J11/J3 与 ① 脚、C19 GND 侧 | ch12 §1.3 |
-| `hat_j11_power.png` | NP-F550 电池仓接 J11（① GND / ② +BATT） | ch12 §1.6 |
-| `radxa_zero3w_interfaces.png` | Radxa ZERO 3W 正反面接口标注 | ch08 §0 |
-| `03_assembled_duck.jpg` | 机械装配完成的整机（蹲姿 + 站姿两视图） | ch03 章首「装完长这样」 |
-
-## 接线图与电控实拍
-
-| 文件名 | 内容 | 用在 |
-| --- | --- | --- |
-| `12_boards_overview.jpg` | 四块板实拍：HAT / RK3566 主控 / IMU_to_DXL / 独立 IMU 模组 | ch12 开头 |
-| `12_wiring_integrated.png` | 整机集成版总线拓扑图（15 舵机 + IMU ID 200 挂同一条总线） | ch12 开头 |
-| `04_wiring_desktop.png` | 桌面调试版接线图（USB 驱动板 + I²C IMU + 两路适配器） | ch04 §1 |
-
-
-## 还可以补拍 / 替换的图（占位）
-
-教程里以下位置还可以放你自己的照片，拍好后放到本目录并按同名引用即可（建议 JPG，宽度 1000–1600px）：
-
-| 建议文件名 | 建议内容 |
+| 文件/目录 | 当前用途 |
 | --- | --- |
-| `cover.jpg` | 整机成品正面照（做 README 封面更好） |
-| `03_trunk_assembly.jpg` | 躯干 + 胯装配、舵机三孔固定 |
-| `03_head_neck.jpg` | 头颈模组装配 |
-| `03_jaw.jpg` | 下巴 / 鸭嘴机构 |
-| `03_wiring_before_shell.jpg` | 合壳前理好的线束 |
-| `03_final_body.jpg` | 外壳合拢完成 |
-| `04_daisychain.jpg` | 舵机菊花链串接实物 |
-| `05_single_servo.jpg` | 一次只接一个舵机改 ID |
-| `05_center_pose.jpg` | 全部回中位后对称站立 |
-| `06_standing.jpg` | 整机扶着确认站姿 |
-| `08_flashing.jpg` | 刷机 / 烧录 TF 卡 |
+| `03_assembled_duck.jpg` | 首页整机与姿态参考 |
+| `leg_front.jpg`、`leg_module_full.jpg`、`leg_back_wiring.jpg` | 单腿结构与理线 |
+| `leg_servos_hd1910.jpg` | 舵机与标签参考 |
+| `ankle_joint_closeup.jpg`、`foot_tpu_sole.jpg` | 踝与柔性脚底参考 |
+| `hat_board_layout.png`、`hat_j11_power.png` | 第 03 章使用 HAT 布局图；J11 电源图保留为旧接法参考，不作为当前分线板供电步骤 |
+| `radxa_zero3w_interfaces.png` | 瑞莎接口参考 |
+| `04_wiring_desktop.png`、`12_wiring_integrated.png`、`12_boards_overview.jpg` | 原方案保留，不能替代新版接线步骤与额定值核验 |
+| `assembly-guide/` | 从仓库已有装配 PDF 导出的 25 页图，来源与范围见其 README |
 
-> 拍照建议：光线均匀、背景干净、关键步骤给特写（接口、针序、轴承、螺丝位）。**请用你自己拍摄 / 制作的图片，不要直接搬运上游项目的图。**
+新主线不引用未经核对的总线供电拓扑图。客户版需要补拍本批次实际转接线、瑞莎/HAT 固定、IMU 朝向、零位/HOME 和 Studio 操作界面，清单见 `维护/发布核对表.md`。
+
+图片与资料的权利按各自来源处理，不因放在本仓库就一律成为原创或自动改变许可。
